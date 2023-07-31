@@ -189,7 +189,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener {
 				Convertir(.013);
 				break;
 			default:
-				JOptionPane.showMessageDialog(null, "Llene los campos con datos válidos");
+				JOptionPane.showMessageDialog(null, "Sólo se puede convertir de MX a otras monedas y viceversa. Ingrese datos válidos");
 				break;
 				}
 			
